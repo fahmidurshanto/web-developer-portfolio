@@ -28,6 +28,22 @@
     padding: 18px 35px;
     border-radius: 5px;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 800px;
+}
+.secondary-bg{
+    background-color: #fff8f3;
+}
 
 /* Nav Styles */
 nav{
@@ -40,7 +56,7 @@ nav{
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+nav ul, .skills-container{
     display: flex;
     align-items: center;
 }
@@ -85,3 +101,38 @@ nav a{
     width: 585px;
 }
 
+
+/* About me section styles */
+th, td{
+    padding: 10px;
+    margin: 100px;
+}
+table{
+    width: 800px;
+    margin: 50px auto;
+    padding: 50px 0;
+    
+    border: 1px solid black;
+}
+.table-heading{
+    color: #757575;
+    font-weight: 300;
+}
+.about{
+    text-align: left;
+}
+
+/* What I do section styles */
+.what-i-do{
+    margin: 200px 0;
+}
+/* Skills section styles */
+.skills-container{
+
+   padding: 50px;
+   gap: 20px;
+}
+.skill-card{
+    padding: 10px;
+    box-shadow: 0px, 60px, 50px, 0px, black;
+}
